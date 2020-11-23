@@ -1,0 +1,1425 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#header-nav {
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+#logo-img {
+	background: url('../images/logo-large.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: -10px 15px -10px -50px;
+}
+
+.navbar-brand {
+	padding-top: 27px;
+}
+.navbar-brand h1 {
+	font-family: 'Unica One', cursive;
+	color: white;
+	font-size: 2.3em;
+	line-height: 0.75;
+}
+
+.special-color {
+	color: #e47297;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+	color: #ebebeb;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #9c1c6b;
+}
+#nav-list span a {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid;
+}
+.navbar-header button.navbar-toggle {
+	margin: 22px 15px 15px -50px;
+}
+.sticky {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.sticky > p {
+	font-size: 20px;
+	margin-bottom: 2.0rem;
+}
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	color: white;
+	border-radius: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#last-logo {
+	background: url('../images/logo-large.png') no-repeat;
+	width: 188px;
+	height: 150px;
+	margin: -25px auto 10px;
+	padding: 0 20px;
+}
+
+.topic h1 {
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.7em;
+	line-height: 1.0;
+	margin: 0;
+	margin-bottom: 7px;
+}
+.topic h3 {
+	line-height: 1.0;
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.topic h5 {
+	line-height: 1.0;
+	font-weight: 600;
+	margin: 0;
+	margin-bottom: 25px;
+}
+.special-color2 {
+	color: #990033;
+}
+.container .jumbotron {
+	box-shadow: 0 0 40px black;
+	border: 2px solid black;
+}
+
+#racing-tile, #fps-tile, #adventure-tile {
+	height: 250px;
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border: 2px solid black;
+	overflow: hidden;
+}
+#racing-tile:hover, #fps-tile:hover, #adventure-tile:hover {
+	box-shadow: 0 5px 5px 5px #666666;
+}
+
+#racing-tile {
+	background: url('../images/racing-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#fps-tile {
+	background: url('../images/fps-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#adventure-tile {
+	background: url('../images/adventure-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#racing-tile span, #fps-tile span, #adventure-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.7;
+}
+
+/* RACING-GAMES PAGE*/
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.9em;
+	line-height: 1.0;
+	margin-top: 2px;
+}
+.beg {
+	font-size: 20px;
+}
+.carblock p {
+	font-size: 20px;
+}
+#list h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+.carpic {
+    width: 700px;
+    height: 360px;
+    margin-bottom: 40px;
+}
+.release {
+	line-height: 2px;
+}
+.carblock {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.checkalso a {
+	font-size: 20px;
+	color: black;
+	text-decoration: underline;
+}
+.checkalso a:hover, .checkalso a:focus {
+	color: #d11d53;
+}
+
+/* FPS-GAMES PAGE*/
+.gunblock p {
+	font-size: 20px;
+}
+.gunpic {
+    width: 700px;
+    height: 360px;
+    margin-bottom: 40px;
+}
+.gunblock {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+/* ADVENTURE-GAMES PAGE*/
+.adventureblock p {
+	font-size: 20px;
+}
+.adpic {
+	width: 700px;
+	height: 360px;
+	margin-bottom: 40px;
+}
+.adventureblock {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+/* ABOUT PAGE*/
+.ab {
+    font-size: 20px;
+}
+#dp {
+	width: 120px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.profile {
+	font-family: adelle-sans, sans-serif;
+	color: #424242;
+	font-weight: 500;
+}
+.sup {
+	line-height: 1.5;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+.rate i { 
+	font-size: 24px;
+	padding-right: 5px
+}
+.lnk i {
+	color: #1a73e8; 
+}
+.git i {
+	color: black;
+}
+.insta i {
+	color: red;
+}
+.rate a {
+	text-decoration: none;
+}
+.rate a:hover, .rate a:focus, .rate a:visited {
+	color: black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.container .jumbotron {
+		background: url('../images/jumbotron-1200.jpg');
+		height: 675px;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo-img {
+	    background: url('../images/logo-medium.png') no-repeat;
+	    width: 125px;
+	    height: 100px;
+	    margin: -5px 15px -5px -20px;
+    }
+    .navbar-brand {
+	    padding-top: 12px;
+    }
+    .navbar-brand h1 {
+	    font-family: 'Unica One', cursive;
+	    color: white;
+	    font-size: 2.0em;
+	    line-height: 0.75;
+    }
+    #last-logo {
+	    background: url('../images/logo-medium.png') no-repeat;
+	    width: 125px;
+	    height: 100px;
+	    margin: -25px auto 10px;
+	    padding: 0 20px;
+    }  
+    .topic h1 {
+	    font-family: 'Nunito', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 2.4em;
+	    margin: 0;
+	    margin-bottom: 3px;
+    }
+    .topic h3 {
+	    font-style: italic;
+	    font-size: 1.8em;
+	    margin: 0;
+	    margin-bottom: 7px;	    
+    }
+    .topic h5 {
+	    line-height: 1.0;
+	    font-weight: 600;
+	    margin: 0;
+	    margin-bottom: 22px;
+    }
+    .container .jumbotron {
+    	background: url('../images/jumbotron-992.jpg');
+    	height: 558px;
+    }
+    .sticky > p {
+        font-size: 1.8em;
+	    margin: 0;
+	    margin-bottom: 16px;	  	
+    }
+    .title {
+	    font-size: 2.4em;
+	    margin-top: 1px;
+    }
+    .beg {
+	    font-size: 1.2em;
+    }
+    .carblock p {
+	    font-size: 1.2em;
+    }
+    #list h2 {
+	    font-size: 1.8em;
+    }
+    .ca {
+    	font-size: 1.8em;
+    }
+    .checkalso a {
+	    font-size: 1.2em;
+    }
+    .gunblock p {
+	    font-size: 1.2em;
+    }
+    .adventureblock p {
+    	font-size: 1.2em;
+    }
+    .ab {
+        font-size: 1.2em;
+    }
+    #dp {
+    	width: 100px;
+    }
+    .profile h1 {
+    	font-size: 1.9em;
+    	margin-top: 25px;
+    	margin-bottom: 2px;
+    }
+    .sup {
+    	font-size: 0.9em;
+    }
+    .rate i {
+    	font-size: 22px;
+    	padding-bottom: 655px;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo-img {
+	    background: url('../images/logo-medium.png') no-repeat;
+	    width: 125px;
+	    height: 100px;
+	    margin: -5px -10px -5px -40px;
+    }
+    .navbar-brand {
+	    padding-top: 10px;
+    }
+    .navbar-brand h1 {
+	    font-family: 'Unica One', cursive;
+	    color: white;
+	    font-size: 1.8em;
+	    line-height: 0.75;
+    }
+    #last-logo {
+	    background: url('../images/logo-medium.png') no-repeat;
+	    width: 125px;
+	    height: 100px;
+	    margin: -25px auto 10px;
+	    padding: 0 20px;
+    }
+    .topic h1 {
+	    font-family: 'Nunito', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 2.2em;
+	    margin: 0;
+	    margin-bottom: 3px;
+    } 
+    .topic h3 {
+	    font-style: italic;
+	    font-size: 1.6em;
+	    margin: 0;
+	    margin-bottom: 5px;
+    }   
+    .topic h5 {
+	    line-height: 1.0;
+	    font-weight: 600;
+	    margin: 0;
+	    margin-bottom: 20px;
+    }
+    .container .jumbotron {
+    	background: url('../images/jumbotron-768.jpg');
+    	height: 432px;
+    }
+    .sticky > p {
+        font-size: 1.6em;
+	    margin: 0;
+	    margin-bottom: 15px;	  	
+    }
+    #adventure-tile {
+    	width: 380px;
+    	margin: 0 auto 15px;
+    }
+    .title {
+	    font-size: 2.2em;
+	    margin-top: 1px;
+    }
+    .beg {
+	    font-size: 1.2em;
+    }
+    .carblock p {
+	    font-size: 1.2em;
+    }
+    #list h2 {
+	    font-size: 1.6em;
+    }
+    .ca {
+    	font-size: 1.6em;
+    }
+    .checkalso a {
+	    font-size: 1.2em;
+    }
+    .gunblock p {
+	    font-size: 1.2em;
+    }
+    .adventureblock p {
+    	font-size: 1.2em;
+    }
+    .ab {
+        font-size: 1.2em;
+    }
+    #dp {
+    	width: 90px;
+    }
+    .profile h1 {
+    	font-size: 1.6em;
+    	margin-top: 25px;
+    	margin-bottom: 2px;
+    }
+    .sup {
+    	font-size: 0.9em;
+    }
+    .rate i {
+    	font-size: 20px;
+    	padding-bottom: 155px;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#logo-img {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 125px;
+	    height: 100px;
+	    margin: 0px -45px -25px 2px;
+    }
+    .navbar-brand {
+	    padding-top: 7px;
+    }
+    .navbar-brand h1 {
+	    font-family: 'Unica One', cursive;
+	    color: white;
+	    font-size: 1.6em;
+	    line-height: 0.75;
+    }
+	#nav-list a {
+	    color: #ebebeb;
+	    text-align: left;
+    }
+    #collapsable-nav a span {
+    	margin-right: 5px;
+    }
+    #last-logo {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 94px;
+	    height: 75px;
+	    margin: -25px auto 10px;
+	    padding: 0 20px;
+    }
+    .topic h1 {
+	    font-family: 'Nunito', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 1.6em;
+	    margin: 0;
+	    margin-bottom: 3px;
+    }
+    .topic h3 {
+	    font-style: italic;
+	    font-size: 1.2em;
+	    margin: 0;
+	    margin-bottom: 8px;
+    }
+    .topic h5 {
+	    line-height: 1.0;
+	    font-weight: 600;
+	    font-size: 0.8em;
+	    margin: 0;
+	    margin-bottom: 17px;
+    }
+    .container .jumbotron {
+    	padding: 0;
+    	margin-bottom: 20px;
+    }
+    .sticky > p {
+        font-size: 1.2em;
+	    margin: 0;
+	    margin-bottom: 9px;	  	
+    }
+    #racing-tile, #fps-tile, #adventure-tile {
+    	width: 380px;
+    	margin: 0 auto 15px;
+    }
+    .title {
+	    font-size: 1.7em;
+	    margin-top: -2px;
+    }
+    .beg {
+	    font-size: 1.0em;
+    }
+    .horizon {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .paradise {
+    	background: url('../images/Racinggames/burnoutsm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .mw {
+    	background: url('../images/Racinggames/nfsMWsm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .pro {
+    	background: url('../images/Racinggames/cars2sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .ridge {
+    	background: url('../images/Racinggames/ridgesm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .hot {
+    	background: url('../images/Racinggames/nfsHOTpsm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .sec {
+    	background: url('../images/Racinggames/splitsecsm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .carblock p {
+	    font-size: 1.0em;
+    }
+    #list h2 {
+	    font-size: 1.5em;
+    }
+    .ca {
+    	font-size: 1.5em;
+    }
+    .checkalso a {
+	    font-size: 1.0em;
+    }
+    .gunblock p {
+	    font-size: 1.0em;
+    }
+    .haloC {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .battlef {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .csgo {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .doom {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .cod {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .halor {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .titan {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .adventureblock p {
+    	font-size: 1.0em;
+    }
+    .park {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .wake {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .wayout {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .devil {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .walkd {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .lifestrange {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .red {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 11px;
+    }
+    .ab {
+        font-size: 1.0em;
+    }
+    #dp {
+    	width: 80px;
+    }
+    .profile h1 {
+    	font-size: 1.5em;
+    	margin-top: 25px;
+    	margin-bottom: 1px;
+    }
+    .sup {
+    	font-size: 0.9em;
+    }
+    .rate i {
+    	font-size: 19px;
+    	/*padding-bottom: 80px;*/
+    }
+}
+
+/********** Super extra small devices Only :-) **********/
+@media (max-width: 479px) {
+	#logo-img {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 100px;
+	    height: 100px;
+	    margin: 0px -40px -25px -10px;
+    }
+	.navbar-brand h1 { 
+        padding-top: 0px;
+        font-size: 9vw;
+    }
+    #last-logo {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 94px;
+	    height: 75px;
+	    margin: -25px auto 10px;
+	    padding: 0 20px;
+    }
+    .topic h1 {
+	    font-family: 'Nunito', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 1.2em;
+	    margin: 0;
+	    margin-bottom: 2px;
+    }
+    .topic h3 {
+	    font-style: italic;
+	    font-size: 1.0em;
+	    margin: 0;
+	    margin-bottom: 5px;
+    }
+    .topic h5 {
+	    line-height: 1.0;
+	    font-weight: 600;
+	    font-size: 0.7em;
+	    margin: 0;
+	    margin-bottom: 14px;
+    }
+    .sticky > p {
+        font-size: 1.1em;
+	    margin: 0;
+	    margin-bottom: 15px;	  	
+    }
+    #racing-tile, #fps-tile, #adventure-tile {
+    	width: 300px;
+    	margin: 0 auto 15px;
+    }
+    .title {
+	    font-size: 1.8em;
+	    margin-top: -2px;
+    }
+    .beg {
+	    font-size: 1.2em;
+    }
+    .horizon {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .paradise {
+    	background: url('../images/Racinggames/burnoutsm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .mw {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .pro {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .ridge {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .hot {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .sec {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .carblock p {
+	    font-size: 1.2em;
+    }
+    .checkalso a {
+	    font-size: 1.2em;
+    }
+    .gunblock p {
+	    font-size: 1.2em;
+    }
+    .haloC {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .battlef {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .csgo {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .doom {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .cod {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .halor {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .titan {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .adventureblock p {
+	    font-size: 1.2em;
+    }
+    .park {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .wake {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .wayout {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .devil {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .walkd {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .lifestrange {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .red {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 350px;
+	    height: 169px;
+	    margin-bottom: 45px;
+    }
+    .ab {
+        font-size: 1.2em;
+    }
+    .profile h1 {
+    	font-size: 1.4em;
+    	margin-top: 25px;
+    	margin-bottom: 1px;
+    }
+    .sup {
+    	font-size: 0.6em;
+    }
+    .rate i {
+    	font-size: 18px;
+    	padding-bottom: 27px;
+    }
+} 
+
+@media (max-width: 360px) {
+	.horizon {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .paradise {
+    	background: url('../images/Racinggames/burnoutsm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .mw {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .pro {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .ridge {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .hot {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .sec {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .haloC {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .battlef {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .csgo {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .doom {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .cod {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .halor {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .titan {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .park {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .wake {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .wayout {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .devil {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .walkd {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .lifestrange {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .red {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 320px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .profile h1 {
+    	font-size: 1.4em;
+    	margin-top: 25px;
+    	margin-bottom: 1px;
+    }
+    .sup {
+    	font-size: 0.6em;
+    }
+    .rate i {
+    	font-size: 18px;
+    	padding-left: 
+    }
+}
+
+/********** Super saiyan extra small devices Only :-) **********/
+@media (max-width: 320px) {
+	#logo-img {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 100px;
+	    height: 100px;
+	    margin: 0px -40px -25px -10px;
+    }
+	.navbar-brand h1 { 
+        padding-top: 0px;
+        font-size: 9vw;
+    }
+    #last-logo {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 94px;
+	    height: 75px;
+	    margin: -25px auto 10px;
+	    padding: 0 20px;
+    }
+    .topic h1 {
+	    font-family: 'Nunito', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 1.0em;
+    }
+    .topic h3 {
+	    font-style: italic;
+	    font-size: 0.85em;
+    }
+    .topic h5 {
+	    line-height: 1.0;
+	    font-weight: 600;
+	    font-size: 0.6em;
+	    margin: 0;
+	    margin-bottom: 11px;
+    }
+    .sticky > p {
+        font-size: 1.em;
+	    margin: 0;
+	    margin-bottom: 15px;	  	
+    }
+    #racing-tile, #fps-tile, #adventure-tile {
+    	width: 280px;
+    	margin: 0 auto 15px;
+    }
+    .title {
+	    font-size: 1.4em;
+	    margin-top: -2px;
+    }
+    .beg {
+	    font-size: 1.0em;
+    }
+    .horizon {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .paradise {
+    	background: url('../images/Racinggames/burnoutsm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .mw {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .pro {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .ridge {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .hot {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .sec {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .carblock p {
+	    font-size: 1.0em;
+    }
+    .checkalso a {
+	    font-size: 1.0em;
+    }
+    .gunblock p {
+	    font-size: 1.0em;
+    }
+    .haloC {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .battlef {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .csgo {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .doom {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .cod {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .halor {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .titan {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .adventureblock p {
+	    font-size: 1.0em;
+    }
+    .park {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .wake {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .wayout {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .devil {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .walkd {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .lifestrange {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+    .red {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 300px;
+	    height: 169px;
+	    margin-bottom: 30px;
+    }
+} 
+
+/********** Ultimate Super saiyan extra small devices Only :-) **********/
+@media (max-width: 280px) {
+	#logo-img {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 100px;
+	    height: 100px;
+	    margin: 0px -40px -25px -10px;
+    }
+	.navbar-brand h1 { 
+        padding-top: 0px;
+        font-size: 9vw;
+    }
+    #last-logo {
+	    background: url('../images/logo-small.png') no-repeat;
+	    width: 94px;
+	    height: 75px;
+	    margin: -25px auto 10px;
+	    padding: 0 20px;
+    }
+    .topic h1 {
+	    font-family: 'Nunito', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 0.9em;
+    }
+    .topic h3 {
+	    font-style: italic;
+	    font-size: 0.8em;
+	    margin: 0;
+	    margin-bottom: 4px;
+    }
+    .topic h5 {
+	    line-height: 1.0;
+	    font-weight: 600;
+	    font-size: 0.6em;
+	    margin: 0;
+	    margin-bottom: 8px;
+    }
+    .sticky > p {
+	    font-size: 0.8em;
+	    margin-bottom: 1.5rem;
+    }
+    #racing-tile, #fps-tile, #adventure-tile {
+    	width: 246px;
+    	margin: 0 auto 15px;
+    }
+    .horizon {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .paradise {
+    	background: url('../images/Racinggames/burnoutsm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .mw {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .pro {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .ridge {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .hot {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .sec {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .haloC {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .battlef {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .csgo {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .doom {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .cod {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .halor {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .titan {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .park {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .wake {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .wayout {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .devil {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .walkd {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .lifestrange {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+    .red {
+    	background: url('../images/Racinggames/horizon4sm.jpg') no-repeat;
+    	width: 250px;
+	    height: 140px;
+	    margin-bottom: 20px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
