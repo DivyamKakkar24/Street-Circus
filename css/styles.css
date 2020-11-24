@@ -310,6 +310,7 @@ body {
     }
     .container .jumbotron {
     	background: url('../images/jumbotron-992.jpg');
+        box-shadow: 0 0 35px black;
     	height: 558px;
     }
     .sticky > p {
@@ -407,6 +408,7 @@ body {
     }
     .container .jumbotron {
     	background: url('../images/jumbotron-768.jpg');
+        box-shadow: 0 0 30px black;
     	height: 432px;
     }
     .sticky > p {
@@ -515,6 +517,7 @@ body {
 	    margin-bottom: 17px;
     }
     .container .jumbotron {
+        box-shadow: 0 0 25px black;
     	padding: 0;
     	margin-bottom: 20px;
     }
